@@ -1,0 +1,6 @@
+{
+  "name": "Hearth & Crumb Cookie Co.",
+  "description": "Artisan small-batch cookie shop featuring fresh batches, custom box building, AI flavor pairing, and seamless checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

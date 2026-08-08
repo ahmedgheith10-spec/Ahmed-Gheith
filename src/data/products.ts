@@ -1,0 +1,120 @@
+import { Cookie } from '../types';
+
+export const HERO_IMAGE = "https://lh3.googleusercontent.com/aida-public/AB6AXuBj8p63V0BZKlATKQ6xDzxivFX__0CvrLEyLpxtW8DvvacgmxzmAq6z7ec6rz_jsJqfkmYNp08j764gmjeKu8t6Nc5NrD8Hn_FDXzAlGjyBvzK1EX_s6h9SzNew72zDHwqvKJpDXq3ae3DXS7NI8WlGOlZTF1rxxijrNBBCxFKNcI37GoU9W40XDtY4bOvTRwQ_kYhaqq9BR8kOWUujvQ6ssdKOizAjq4iKNxWjQfSnAhp7hqSuxfQe";
+
+export const BAKER_STORY_IMAGE = "https://lh3.googleusercontent.com/aida-public/AB6AXuAQ7CG0yIYuhzgYgCQC_GRmJZmlQY_o6su8jFhJTaeWq2cLqywyFibydPiAdak9fKlmKPErXtXg5TVhhbASI1bKcNLV-3udqYt0M9rzPOemR3I_U0gBGoSrCWBqmSioa61Hq7BHESK_U_iyuFfz8ZfoRt3KOA0PQStzCiuSy88zRv5KFFEmRiNSzxs3I1GYTLQmb3N7F9uL1tOUINf81mByqPXX_Vjj_adycTAZcjSPJtPVgywfrV5T";
+
+export const COOKIES: Cookie[] = [
+  {
+    id: 'classic-choc-chip',
+    name: 'The Hearth Classic',
+    price: 22.00,
+    badge: 'Top Seller',
+    badgeType: 'tertiary',
+    description: 'Our signature brown butter dough packed with three types of hand-chopped 70% Belgian dark chocolate and Maldon sea salt flakes.',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCx2YO1S3zmgwCYWWuYFOUW3zSp2vzTLuiZ4PfhPuH9hSj3j4YQ7gnUKfMo7c_dP3ksBcKDKhtMB050EVzXyg9HU6RmUhmZrFM40VTap8NINplBgNQYUadXfY9lNldKStXgEl3mfl4OlNe2ihy4U7VgF3DhWR6RYp9wOUTMSm5LKRElsN-pD9-OzJIOMLq0yZTjhFLMnpRPyTHx0SdbT2Mvc6ZGmttQqg-n_IEHx90Ow_AlHw-m9zjV',
+    altText: 'Macro photograph of Classic Choc Chip cookie with melting dark chocolate pools and sea salt flakes',
+    category: 'Classic Favorites',
+    rating: 5.0,
+    reviewsCount: 142,
+    ingredients: ['Cultured Vermont Butter', 'Organic Stone-Ground Wheat Flour', '70% Belgian Cocoa', 'Maldon Sea Salt', 'Free-Range Farm Eggs', 'Madagascar Bourbon Vanilla'],
+    bakersTip: 'Warm for 12 seconds in a 300°F oven for a gooey center.',
+    calories: 280
+  },
+  {
+    id: 'sea-salt-toffee',
+    name: 'Sea Salt Toffee',
+    price: 19.50,
+    badge: 'Fan Favorite',
+    badgeType: 'secondary',
+    description: 'Buttery crunch meets silky smooth dough, loaded with handmade buttery english toffee chunks and finished with a pinch of ocean salt.',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA9Jtnw6NXVKFUyDEpgU4xSp5KuMW9RqrvbqZIQrq4QjEFpGYjhah_9mwl96SG5-cLvvaIBRTNmhRiB_r1vNbfP9dB7qKUdDGJlrl38O-228EW2uuLMDVT6hFxzAGjWHo9j8owhp5BUMI4gJCI_3JOTutRTCQ3QjJoHoLtEO0nNeqZ_c_SH_OuapLRRgNOaDozD_Zo006pKjCj4wJVxFMf4biWaAo-pPndHg_YeToTidpBA8v_BXKoY',
+    altText: 'Three Sea Salt Toffee cookies stacked unevenly on crinkled brown paper with visible chunks of buttery toffee',
+    category: 'Classic Favorites',
+    rating: 4.9,
+    reviewsCount: 98,
+    ingredients: ['House-made English Butter Toffee', 'Brown Butter', 'Unbleached Organic Flour', 'Flaky Sea Salt', 'Pure Cane Sugar'],
+    bakersTip: 'Pair with a cold glass of farm-fresh milk or light espresso.',
+    calories: 290
+  },
+  {
+    id: 'old-fashioned-oat',
+    name: 'Old Fashioned Oat & Honey',
+    price: 18.00,
+    badge: 'Seasonal',
+    badgeType: 'accent',
+    description: 'Hearty rolled oats sweetened with wildflower honey from local aviaries, organic cinnamon, and plump sun-dried sultanas.',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA-ploJHq-tIuVTyO9IZTHv3NCP31OtyqObLJS1oHSXGMqi2qiIFtvtW09PQ_WODPXegfSC6z2OUewQ28whzwtlGkNjDJxbO4SdN8Xel0twKKiasofIcsM7IDuu4LdNsTKg0AsJ58xdI41LpJaIOYlmQG8_xwwrk7-puu-9QhspUx8WHtBCwymCQfjdUB-hQgIS5AUI6hldr8_5w-MpaTNxtjcHhypYmKFQuKE7MmzQUnY2kmRf9JZ4',
+    altText: 'Oatmeal raisin honey cookie resting on a linen napkin with wooden honey dipper',
+    category: 'Seasonal Specials',
+    rating: 4.8,
+    reviewsCount: 76,
+    ingredients: ['Whole Rolled Vermont Oats', 'Local Wildflower Honey', 'Golden Sultana Raisins', 'Ceylon Cinnamon', 'Grass-Fed Butter'],
+    bakersTip: 'Incredible when dipped in warm chai tea.',
+    calories: 250
+  },
+  {
+    id: 'lavender-lemon',
+    name: 'Lavender & Wild Honey',
+    price: 26.00,
+    badge: 'Seasonal',
+    badgeType: 'secondary',
+    description: 'Floral notes of organic culinary lavender grown on our farm, paired with a zesty Meyer lemon glaze and wildflower honey.',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDeghCL04s5hXEpHa0fYQ4sW2R01IOKTmNcrTbZ58Zf-iJ84SdNQtLYlj0Lk1KidvQAkrVVNQY6oCCbgUKQcyAcchy0sTgn67SyDiZr-QDsVTpGPBei5ILRcJszD4fGUvRvIVD_77M-l-dYdT9rFb3zHlAfMOALrEwfdq8x65wKjyAeJhZ2bbfhVreDO3m_NaaoBHeJirEM57SJzNIG0N2sMlhm0hb9DEOfCqXa9cakzrIzORo72XRy',
+    altText: 'Lemon-glazed cookies decorated with sprigs of fresh rosemary and dried lavender flowers',
+    category: 'Seasonal Specials',
+    rating: 4.9,
+    reviewsCount: 112,
+    ingredients: ['Organic Lavender Buds', 'Fresh Meyer Lemon Zest', 'Local Raw Honey', 'Pasture-Raised Egg Yolks', 'Filtered Spring Water'],
+    bakersTip: 'Best enjoyed outdoors during sunny afternoon tea.',
+    calories: 240
+  },
+  {
+    id: 'espresso-midnight',
+    name: 'Espresso Midnight Chocolate',
+    price: 24.00,
+    badge: 'Chef Special',
+    badgeType: 'tertiary',
+    description: 'Double-dark Venezuelan cocoa dough infused with locally roasted espresso beans and a molten caramel core.',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCGwcJYXT9MD00Uvqo6XzdsQkodLLUkouReotTMIf5zJKCtfyho8JQYsyGrY7nZMES3KiVeuhtRllelGEKOmSW-P5P1oudRGHjNyuh0JUtP2_G2nifO2zpxEfgo8oKG57KBOXWwQQhzM5kTxAmtESwC1CDf_2NgF7u7qrlCr56ph71N9DEV97KBmSP_d5T72cP6nWhm--KDQIasr_O01oSmdkMgM--Z9tpfLxBjvqvvhI0Foj4bxXBm',
+    altText: 'Deep mahogany chocolate cookie broken in half revealing a molten caramel center',
+    category: 'Classic Favorites',
+    rating: 5.0,
+    reviewsCount: 189,
+    ingredients: ['72% Venezuelan Cacao', 'Single-Origin Roasted Espresso', 'Salted Butter Caramel Core', 'Smoked Sea Salt'],
+    bakersTip: 'Warm for 15 seconds to let the caramel melt into liquid gold.',
+    calories: 310
+  },
+  {
+    id: 'almond-cloud-gf',
+    name: 'Almond Cloud',
+    price: 28.00,
+    badge: 'Gluten Free',
+    badgeType: 'gluten-free',
+    description: 'Flourless almond meal cookies made with pure vanilla bean, organic honey, and whole toasted almonds pressed into each top.',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAiKnYi3aDM8OqZt0CkaE3OoQ52stfLs7VLncanzHDfA8nRD3GMUXoW7xe_wHtIPm1_iwIniUmFF_UVKyRJUIThMyC-kFvQyLeWQFjAgQOm2JIUHZGsBMHarp0PtI9d1vngyNTIMC7LwVcxu9cHT4Z1WRIdFrYH3mLqeuLGXn2cbXGQx8TDc_Sz1URbi3SY3dmjMkOBhGWwNy0hbMDs0Qsex50Je34jCKLAJDRY_vWiRW9RfZO-nsPm',
+    altText: 'Almond flour cookies with whole toasted almonds in a woven basket',
+    category: 'Gluten-Free Flour',
+    rating: 4.9,
+    reviewsCount: 64,
+    ingredients: ['Finely Ground Spanish Almond Flour', 'Toasted Whole Almonds', 'Organic Acacia Honey', 'Tahitian Vanilla Bean Extract'],
+    bakersTip: 'Soft, delicate texture that melts in your mouth naturally.',
+    calories: 230
+  },
+  {
+    id: 'hearth-sampler-box',
+    name: 'Hearth Sampler Box',
+    price: 32.00,
+    badge: 'Gift Favorite',
+    badgeType: 'tertiary',
+    description: 'A curated selection of 6 of our most celebrated artisan cookie varieties, individually wrapped in custom compostable liners inside a tied gift box.',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA8BIu41f4dnOMnPiRptG8ZsBluGF413ot5Hbve7eTHVaDDPZWedtUaUEmJ0op5dD0_Cr9DhlYMRSCLxFx4dXTtqU_0p_RlEYibo2btRfBOzHafuS4hyHY4tFCRmHx8g6TP7nyOiTigDremB5HppJK_Uord93D0_vuvYxo8qhJjf8jRabql3Y17lVvbI01IZs290UcW2uVL7SURxVyKnmzpDiwHwCZ2GtgZj8BjVjQ77qjtiHcdHDux',
+    altText: 'Kraft-paper gift box tied with cotton ribbon containing a collection of cookies',
+    category: 'Gift Boxes',
+    rating: 5.0,
+    reviewsCount: 210,
+    ingredients: ['Includes 1 of each signature flavor', 'Artisanal gift box packaging', 'Personalized baker note card'],
+    bakersTip: 'Includes a hand-written gift tag option at checkout.',
+    calories: 1650
+  }
+];
